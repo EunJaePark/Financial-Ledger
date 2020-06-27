@@ -1,5 +1,8 @@
 <template>
-  <div class="myinfo-form"></div>
+  <div class="myinfo-form">
+    <span>ID : {{}}</span>
+    <span>Nickname : {{}}</span>
+  </div>
 </template>
 
 <script>

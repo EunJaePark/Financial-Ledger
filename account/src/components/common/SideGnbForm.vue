@@ -1,10 +1,16 @@
 <template>
   <div class="side-gnb-form">
-    <ul>
-      <li><a href="">MainPage</a></li>
-      <li><a href="">MainPage</a></li>
-      <li><a href="">MainPage</a></li>
-      <li><a href="">MainPage</a></li>
+    <div class="logo-cont">
+      Logo
+    </div>
+
+    <ul class="gnb-cont">
+      <li><a href="">Main</a></li>
+      <li><a href="">Daily</a></li>
+      <li><a href="">Statistics</a></li>
+      <li><a href="">Mypage</a></li>
+      <li><a href="">Setting</a></li>
+      <li><a href="">Logout</a></li>
     </ul>
   </div>
 </template>

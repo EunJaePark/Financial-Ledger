@@ -6,14 +6,14 @@
 </template>
 
 <script>
-import SetAsset from "@/components/setting/SetAsset.vue";
-import SetCategory from "@/components/setting/SetCategory.vue";
+import SetAsset from '@/components/setting/SetAsset.vue';
+import SetCategory from '@/components/setting/SetCategory.vue';
 
 export default {
   components: {
     SetAsset,
-    SetCategory
-  }
+    SetCategory,
+  },
 };
 </script>
 

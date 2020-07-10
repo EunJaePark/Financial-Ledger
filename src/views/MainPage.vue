@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import AssetListForm from "@/components/AssetListForm.vue";
+import AssetListForm from '@/components/AssetListForm.vue';
 export default {
   components: {
-    AssetListForm
-  }
+    AssetListForm,
+  },
 };
 </script>
 

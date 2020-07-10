@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import SideGnbForm from "@/components/common/SideGnbForm.vue";
+import SideGnbForm from '@/components/common/SideGnbForm.vue';
 export default {
   components: {
-    SideGnbForm
-  }
+    SideGnbForm,
+  },
 };
 </script>
 

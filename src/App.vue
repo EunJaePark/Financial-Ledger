@@ -1,20 +1,24 @@
 <template>
-  <div class="app">
+  <div id="app">
     <Sidebar></Sidebar>
-    <StatusHeader></StatusHeader>
-    <router-view></router-view>
+    <!-- <StatusHeader></StatusHeader> -->
+    <router-view class="router-area"></router-view>
   </div>
 </template>
 
 <script>
-import Sidebar from "@/views/Sidebar.vue";
-import StatusHeader from "@/views/StatusHeader.vue";
+import Sidebar from '@/views/Sidebar.vue';
+// import StatusHeader from '@/views/StatusHeader.vue';
 export default {
   components: {
     Sidebar,
-    StatusHeader
-  }
+    // StatusHeader,
+  },
 };
 </script>
 
-<style></style>
+<style>
+@import './assets/css/reset.css';
+@import './assets/css/common.css';
+@import './assets/css/registration.css';
+</style>

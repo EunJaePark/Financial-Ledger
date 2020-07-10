@@ -22,6 +22,7 @@
 
     <!-- setting페이지로 연결버튼 -->
     <button>Setting</button>
+    <!-- <button>Setting</button> -->
   </div>
 </template>
 

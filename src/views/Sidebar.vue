@@ -14,9 +14,10 @@ export default {
 </script>
 
 <style>
-/* .sidebar-wrap {
-  background-color: #348f6c;
-  width: 200px;
-  height: 100%;
-} */
+.sidebar-wrap {
+  width: 20%;
+  display: inline-block;
+  /* background-color: bisque; */
+  height: 500px;
+}
 </style>

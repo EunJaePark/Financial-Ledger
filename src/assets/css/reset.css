@@ -43,3 +43,11 @@ button {
 *:before {
     box-sizing: border-box;
 }
+
+
+/*  dailypage에 따로 추가할것 */
+select, input {
+  -webkit-appearance: none;
+  -moz-appearance:none;
+  appearance:none;
+}

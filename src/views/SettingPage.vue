@@ -1,7 +1,7 @@
 <template>
   <div class="setting-page-wrap">
-    <SetAsset class="set-asset"></SetAsset>
-    <SetCategory class="set-category"></SetCategory>
+    <SetAsset></SetAsset>
+    <SetCategory></SetCategory>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="mypage-wrap no-header">
+  <div class="mypage-wrap">
     <MyInfoForm></MyInfoForm>
   </div>
 </template>

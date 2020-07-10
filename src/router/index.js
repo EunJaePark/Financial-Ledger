@@ -12,7 +12,6 @@ const routes = [
     path: '/registration',
     component: () => import('@/views/RegistrationPage.vue'),
   },
-
   {
     path: '/main',
     component: () => import('@/views/MainPage.vue'),

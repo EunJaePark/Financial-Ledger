@@ -1,8 +1,8 @@
 <template>
   <div class="daily-page-wrap">
     <DailyBalance></DailyBalance>
-    <DailyList></DailyList>
     <DailyListAdd></DailyListAdd>
+    <DailyList></DailyList>
   </div>
 </template>
 
@@ -20,4 +20,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.daily-page-wrap {
+  overflow-y: scroll;
+  /* padding: 4.8em 3.327em 0; */
+}
+</style>

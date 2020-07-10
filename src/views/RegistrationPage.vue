@@ -6,14 +6,14 @@
 </template>
 
 <script>
-import LoginForm from "@/components/registration/LoginForm";
-import SignupForm from "@/components/registration/SignupForm";
+import LoginForm from '@/components/registration/LoginForm';
+import SignupForm from '@/components/registration/SignupForm';
 
 export default {
   components: {
     LoginForm,
-    SignupForm
-  }
+    SignupForm,
+  },
 };
 </script>
 

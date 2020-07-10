@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import StatusForm from "@/components/common/StatusForm";
+import StatusForm from '@/components/common/StatusForm';
 
 export default {
   components: {
-    StatusForm
-  }
+    StatusForm,
+  },
 };
 </script>
 

@@ -1,16 +1,24 @@
 <template>
   <div class="statistics-page-wrap">
-    <StatisticsViewForm></StatisticsViewForm>
+    <div>
+      <BarGraph></BarGraph>
+      <RoundGraph></RoundGraph>
+      <StatisticsList></StatisticsList>
+    </div>
   </div>
 </template>
 
 <script>
-import StatisticsViewForm from "@/components/StatisticsViewForm.vue";
+import BarGraph from '@/components/statistics/BarGraph.vue';
+import RoundGraph from '@/components/statistics/RoundGraph.vue';
+import StatisticsList from '@/components/statistics/StatisticsList.vue';
 
 export default {
   components: {
-    StatisticsViewForm
-  }
+    BarGraph,
+    RoundGraph,
+    StatisticsList,
+  },
 };
 </script>
 

@@ -6,7 +6,7 @@
     </div>
     <!-- 로딩 바 -->
     <div class="loading-bar-cont">
-      <div class="loading-bar"></div>
+      <div class="loading-bar">90%</div>
     </div>
   </div>
 </template>

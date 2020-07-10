@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import MyInfoForm from "@/components/MyInfoForm.vue";
+import MyInfoForm from '@/components/MyInfoForm.vue';
 
 export default {
   components: {
-    MyInfoForm
-  }
+    MyInfoForm,
+  },
 };
 </script>
 

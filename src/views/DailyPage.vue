@@ -1,23 +1,28 @@
 <template>
   <div class="daily-page-wrap">
     <DailyBalance></DailyBalance>
-    <DailyList></DailyList>
     <DailyListAdd></DailyListAdd>
+    <DailyList></DailyList>
   </div>
 </template>
 
 <script>
-import DailyBalance from "@/components/daily/DailyBalance";
-import DailyList from "@/components/daily/DailyList";
-import DailyListAdd from "@/components/daily/DailyListAdd";
+import DailyBalance from '@/components/daily/DailyBalance';
+import DailyList from '@/components/daily/DailyList';
+import DailyListAdd from '@/components/daily/DailyListAdd';
 
 export default {
   components: {
     DailyBalance,
     DailyList,
-    DailyListAdd
-  }
+    DailyListAdd,
+  },
 };
 </script>
 
-<style></style>
+<style>
+.daily-page-wrap {
+  overflow-y: scroll;
+  /* padding: 4.8em 3.327em 0; */
+}
+</style>

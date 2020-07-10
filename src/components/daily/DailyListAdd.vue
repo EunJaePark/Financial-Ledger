@@ -1,26 +1,47 @@
 <template>
   <div class="daily-list-add">
-    <div class="add-cont">
+    <form class="add-cont">
       <ul>
         <li class="add-income">
-          <a href="">수입</a>
+          <a href="#/daily">수입</a>
+          <button class="btn what-date">7월10일</button>
           <select name="" id="">
-            <option selected>수입1</option>
-            <option>수입2</option>
-            <option>수입3</option>
+            <option selected>분류1</option>
+            <option>분류2</option>
+            <option>분류3</option>
           </select>
-          <input type="text" placeholder="수입 내역을 입력해주세요" />
+          <select name="" id="" class="add-bank">
+            <option selected>은행1</option>
+            <option>은행2</option>
+            <option>은행3</option>
+          </select>
+          <input
+            type="text"
+            placeholder="내역을 0 단위로 입력해주세요. ex 10,000"
+          />
+          <button class="btn list-add-btn">등록</button>
         </li>
         <li class="add-expend">
-          <a href="">지출</a>
+          <a href="#/daily">지출</a>
+          <!-- <button class="btn what-date">7월10일</button>
           <select name="" id="">
-            <option selected>지출1</option>
-            <option>지출2</option>
+            <option selected>분류1</option>
+            <option>분류2</option>
+            <option>분류3</option>
           </select>
-          <input type="text" placeholder="지출 내역을 입력해주세요" />
+          <select name="" id="" class="add-bank">
+            <option selected>은행1</option>
+            <option>은행2</option>
+            <option>은행3</option>
+          </select>
+          <input
+            type="text"
+            placeholder="내역을 0 단위로 입력해주세요. ex 10,000"
+          />
+          <button class="btn list-add-btn">등록</button> -->
         </li>
       </ul>
-    </div>
+    </form>
   </div>
 </template>
 
@@ -28,4 +49,4 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style></style>

@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import DailyBalance from "@/components/daily/DailyBalance";
-import DailyList from "@/components/daily/DailyList";
-import DailyListAdd from "@/components/daily/DailyListAdd";
+import DailyBalance from '@/components/daily/DailyBalance';
+import DailyList from '@/components/daily/DailyList';
+import DailyListAdd from '@/components/daily/DailyListAdd';
 
 export default {
   components: {
     DailyBalance,
     DailyList,
-    DailyListAdd
-  }
+    DailyListAdd,
+  },
 };
 </script>
 

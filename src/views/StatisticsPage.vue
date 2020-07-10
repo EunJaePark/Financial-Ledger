@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import StatisticsViewForm from "@/components/StatisticsViewForm.vue";
+import StatisticsViewForm from '@/components/StatisticsViewForm.vue';
 
 export default {
   components: {
-    StatisticsViewForm
-  }
+    StatisticsViewForm,
+  },
 };
 </script>
 

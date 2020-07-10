@@ -1,16 +1,16 @@
 <template>
-  <div class="mypage-wrap">
+  <div class="mypage-wrap no-header">
     <MyInfoForm></MyInfoForm>
   </div>
 </template>
 
 <script>
-import MyInfoForm from "@/components/MyInfoForm.vue";
+import MyInfoForm from '@/components/MyInfoForm.vue';
 
 export default {
   components: {
-    MyInfoForm
-  }
+    MyInfoForm,
+  },
 };
 </script>
 

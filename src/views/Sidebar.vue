@@ -5,12 +5,18 @@
 </template>
 
 <script>
-import SideGnbForm from "@/components/common/SideGnbForm.vue";
+import SideGnbForm from '@/components/common/SideGnbForm.vue';
 export default {
   components: {
-    SideGnbForm
-  }
+    SideGnbForm,
+  },
 };
 </script>
 
-<style></style>
+<style>
+/* .sidebar-wrap {
+  background-color: #348f6c;
+  width: 200px;
+  height: 100%;
+} */
+</style>

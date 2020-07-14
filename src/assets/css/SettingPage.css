@@ -94,6 +94,13 @@
     padding: 0 10px;
     background-color: #fff;
   }
+  .set-asset > form > .credit-goal-cont > ul > li > button.edit{
+    outline: 5px solid red;
+    border: none;
+    background-color:#348f6c;
+  }
+
+  /* [설정] 버튼 */
   .set-asset > form > button {
     border: none;
     border-radius: 4px;

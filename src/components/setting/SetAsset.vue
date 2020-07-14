@@ -49,6 +49,7 @@
               type="text"
               placeholder="해당 은행의 총 목표 금액을 입력해 주세요"
             />
+            <button class="edit">수정</button>
           </li>
         </ul>
       </div>
@@ -59,7 +60,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  // 입력한 총 목표 금액, 현금 목표 금액, 은행별 자산 저장.
+};
 </script>
 
 <style></style>

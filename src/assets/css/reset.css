@@ -17,6 +17,7 @@ body {
 	height: 100vh;
 	box-sizing: border-box;
 	padding:2% 3%;
+	color: #3B3B3B;
 }
 h1, h2, h3, h4, h5, h6 {font-size:1em; font-family:'Jua';}
 h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
@@ -33,6 +34,14 @@ input:focus,
 select:focus {
 	outline: none;
 	outline-offset:unset;
+}
+input,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-text-fill-color: #585858 !important;
 }
 button {
 	cursor: pointer;

@@ -20,6 +20,11 @@ export default new Vuex.Store({
     category: getCategory() || '',
   },
   mutations: {},
+    listData: [],
+  },
+  mutations: {
+    SET_DAILYLIST() {},
+  },
   actions: {},
   modules: {},
 });

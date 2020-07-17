@@ -42,7 +42,6 @@
     display: inline-block;
   }
   
- 
   .set-asset > h3 {
     margin-bottom: 0;
   }
@@ -219,8 +218,6 @@
   > input[type='radio']
   + div {
     background-color:rgba(52, 143, 108, 0.5);
-
-    /* display: flex; */
   }
   .set-category
   > .category-list-cont

@@ -20,8 +20,8 @@ export default {
 <style>
 @import './assets/css/reset.css';
 @import './assets/css/common.css';
-@import './assets/css/MyPage.css';
-@import './assets/css/SettingPage.css';
+@import './assets/css/mypage.css';
+@import './assets/css/setting-page.css';
 @import './assets/css/daily-page.css';
 @import './assets/css/main-page.css';
 @import './assets/css/statistics-page.css';

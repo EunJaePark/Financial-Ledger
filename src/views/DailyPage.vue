@@ -24,4 +24,5 @@ export default {
 .daily-page-wrap {
   overflow-y: scroll;
   /* padding: 4.8em 3.327em 0; */
-}</style>
+}
+</style>

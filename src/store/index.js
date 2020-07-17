@@ -18,8 +18,6 @@ export default new Vuex.Store({
       asset: getBankAsset() || 0,
     },
     category: getCategory() || '',
-  },
-  mutations: {},
     listData: [],
   },
   mutations: {

@@ -58,13 +58,10 @@
               placeholder="해당 은행의 총 목표 금액을 입력해 주세요"
               v-model="saveAsset.asset"
             />
-<<<<<<< Updated upstream
-=======
             <!-- <button class="edit">수정</button> -->
             <button class="remove" @click.prevent="clickRemoveBank(bankList)">
               ✕
             </button>
->>>>>>> Stashed changes
           </li>
         </ul>
       </div>
@@ -97,9 +94,6 @@
 </template>
 
 <script>
-<<<<<<< Updated upstream
-export default {};
-=======
 import { saveTotal, saveCash, saveBankAsset } from '@/utils/cookies.js';
 
 export default {
@@ -145,7 +139,6 @@ export default {
     },
   },
 };
->>>>>>> Stashed changes
 </script>
 
 <style></style>

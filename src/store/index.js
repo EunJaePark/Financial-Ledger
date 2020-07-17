@@ -8,7 +8,7 @@ export default new Vuex.Store({
     listData: [],
   },
   mutations: {
-    SET_DAILYLIST() { },
+    SET_DAILYLIST() {},
   },
   actions: {},
   modules: {},
